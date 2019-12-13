@@ -2,10 +2,10 @@ import pyodbc
 from flask import Flask
 app = Flask(__name__)
 
-server = 'tcp:servertest1202.database.windows.net,1433'
-database = 'datatest1202'
-username = 'v-yilzho'
-password = 'Z23_y0@O7'
+server = ''
+database = ''
+username = ''
+password = ''
 driver= '{ODBC Driver 17 for SQL Server}'
 
 @app.route("/")
